@@ -47,14 +47,14 @@ const LowerHeader = () => {
               "cutlery",
             ].map((val, ind) => (
               <li key={ind} className="capitalize text-text cursor-pointer">
-                 {val === "about" ? (
-              <a href="/about">{val}</a>
-            ) : val === "products" ? (
-              <a href="/products">{val}</a>
-            ) : (
-              val
-            )}
-              </li>
+              {val === "about" ? (
+                <Link href="/about">{val}</Link>
+              ) : val === "products" ? (
+                <Link href="/products">{val}</Link>
+              ) : (
+                val
+              )}
+            </li>
             ))}
           </ul>
         </nav>
