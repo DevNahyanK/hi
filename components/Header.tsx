@@ -2,8 +2,8 @@ import React from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
-import Link from "next/link";
 import MobileNavbar from "./MobileNavbar";
+import Link from "next/link";
 
 const Header = () => {
     return (
